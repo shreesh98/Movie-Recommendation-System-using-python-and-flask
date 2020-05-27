@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+		<title>Movie Review</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="{{url_for('static', filename='fonts/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+
+
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-copy">
+							<p class="site-title" style="font-size:65px;font-family: 'Abril Fatface', cursive;">The Critics</p>
+							<small class="site-description">Flix and Chill</small>
+						</div>
+
+					</a> <!-- #branding -->
+
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item"><a href="review.html">Movie reviews</a></li>
+							<li class="menu-item current-menu-item"><a href="joinus.html">Join us</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+
+						<form action="#" class="search-form">
+							<input type="text" placeholder="Search...">
+							<button><i class="fa fa-search"></i></button>
+						</form>
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="container">
+					<div class="page">
+						<div class="breadcrumbs">
+							<a href="index.html">Home</a>
+							<span>Join Us</span>
+						</div>
+
+						<div class="content">
+							<h2 class="section-title">What are we?</h2>
+							<p>This is an online database of information related to films, television programs, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews. Most data in the database is provided by volunteer contributors. The site enables registered users to submit new material and edits to existing entries. Users with a proven track record of submitting factual data are given instant approval for additions or corrections to cast, credits, and other demographics of media product and personalities. However, image, name, character name, plot summaries, and title changes are supposedly screened before publication, and usually take between 24 and 72 hours to appear.</p>
+
+							<h2 class="section-title">Nemo enim ipsam voluptatem quia voluptas</h2>
+							<p>Movie recommendation systems provide a mechanism to assist users in classifying users with similar interests. This makes recommender systems essentially a central part of websites and e-commerce applications.</p>
+
+							
+
+							<div class="row">
+								<div class="col-md-4">
+									<div class="feature">
+										<h3 class="feature-title">Exceptur cupidat</h3>
+										<small class="feature-subtitle">Incididunt labore dolore</small>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aut ad optio praesentium amet, ullam vel impedit dignissimos voluptas, consequatur recusandae quo autem consectetur tempore rem quam corrupti a. Accusamus.</p>
+										<a href="" class="button">Send a request</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="feature">
+										<h3 class="feature-title">Neque quisquam</h3>
+										<small class="feature-subtitle">Duis aute reprehenderit</small>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta aperiam quidem nobis rem exercitationem aut assumenda iure molestias eius accusantium, temporibus quis esse tempora. Laboriosam libero odio nobis, eligendi minus.</p>
+										<a href="" class="button">Send a request</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="feature">
+										<h3 class="feature-title">Tempor Labore</h3>
+										<small class="feature-subtitle">Ratione sequi nesciunt</small>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi impedit ea beatae, in ipsa doloribus consequuntur ut, quod dolor dolore unde, esse eligendi autem nobis rem tempora recusandae laborum.</p>
+										<a href="" class="button">Send a request</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .container -->
+			</main>
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">About Us</h3>
+								<p>Our motto is to convey the best content online. Period.</p>
+							</div>
+						</div>
+
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Help Center</h3>
+								<ul class="no-bullet">
+									<li>Contact:</li>
+									<li>Our Developers</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Join Us</h3>
+								<ul class="no-bullet">
+									<li>Mail us at:</li>
+									<li>xyz@gmail.com</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<ul class="no-bullet">
+									<li><a href="http://www.facebook.com">Facebook</a></li>
+									<li><a href="https://twitter.com/explore">Twitter</a></li>
+									<li><a href="http://www.gmail.com">Google</a></li>
+									<li><a href="https://www.pinterest.ca/">Pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<form action="#" class="subscribe-form">
+									<input type="text" placeholder="Email Address">
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="colophon">Copyright 2020 Company name, The three musketeers. All rights reserved</div>
+				</div> <!-- .container -->
+
+			</footer>
+		</div>
+		<!-- Default snippet for navigation -->
+
+
+		<script "{{url_for('static', filename='js/jquery-1.11.1.min.js')}}"></script>
+		<script "{{url_for('static', filename='js/plugins.js')}}"></script>
+		<script "{{url_for('static', filename='js/app.js')}}"></script>
+
+	</body>
+
+</html>
